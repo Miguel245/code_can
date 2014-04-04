@@ -1,0 +1,9 @@
+Feature: Realestate
+Navigate through all the main headers of
+realestate page
+
+Scenario:Navigate pages
+Given I'm at the main page
+When I click on the rent link
+#Then I should be at the rent page
+

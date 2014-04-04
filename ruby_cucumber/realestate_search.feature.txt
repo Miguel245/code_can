@@ -1,0 +1,7 @@
+Feature: Realestate
+Perform a search with a certain criteria
+
+Scenario: Property search
+ Given I'm at the search page
+ When I search for richmond vic property
+ Then I should see results

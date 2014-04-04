@@ -1,0 +1,5 @@
+Feature: Send mail
+ Scenario: Fill out email properties
+	Given I am at the mail api
+	When I enter mail properties
+	Then I can send mail
